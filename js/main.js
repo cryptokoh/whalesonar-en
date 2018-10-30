@@ -77,7 +77,7 @@ $(function () {
     }, false);
              
     if(MODE == 'golos'){ 
-        steem.config.set('websocket', 'wss://ws.golos.io');
+        steem.config.set('websocket', 'wss://rpc.golos.io');
         var DOMAIN = 'https://golos.io/';
         var coin_code = 'GOLOS';
     } else {
