@@ -6,7 +6,7 @@ $(function () {
         
     /*------ Config -------*/
     
-    var MODE = 'steem';
+    var MODE = 'smoke';
           
     var LIFE_INTERVAL = 15;
     var DEFAULT_SP = 10000;
@@ -76,9 +76,9 @@ $(function () {
         }       
     }, false);
              
-    if(MODE == 'golos'){ 
+    if(MODE == 'smoke'){ 
         steem.config.set('websocket', 'wss://rpc.golos.io');
-        var DOMAIN = 'https://golos.io/';
+        var DOMAIN = 'https://smoke.io/';
         var coin_code = 'GOLOS';
     } else {
         var DOMAIN = 'https://steemit.com/';
